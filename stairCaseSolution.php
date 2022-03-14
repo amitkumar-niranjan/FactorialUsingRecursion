@@ -5,7 +5,7 @@
  *
  * The function accepts INTEGER n as parameter.
  */
-// $handle = fopen ("php://stdin","r");
+
 function symbol()
 {
     $symbol = "#";
@@ -40,8 +40,5 @@ function staircase($n) {
     
 }
 
-// $n = intval(trim(fgets(STDIN)));
-$n = 6; // integer value only
+$n = intval(trim(fgets(STDIN)));
 staircase($n);
-
-// fclose($handle);
